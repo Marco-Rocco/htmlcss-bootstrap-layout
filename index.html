@@ -12,21 +12,28 @@
 <body>
     <main>
 
-        <h2 class="text-center">Bootstrap 5 Responsive Grid</h2>
-        <p class="text-center">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
+        <div class="container p-4">
 
-        <section>
-            <div class="container text-center">
-                <div class="row">
-                <div class="col-12">
-                    Column
+            <h2 class="text-center">Bootstrap 5 Responsive Grid</h2>
+            <p class="text-center text-secondary-emphasis fw-light">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
+
+            <section class="grids my-5">
+                <div class="container text-center">
+                    <div class="row">
+                    <div class="col-12 text-start bg-light py-3">
+                        <h2>Colonna 1</h2>
+                        <p class="fw-light">Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e un terzo su dispositivi grandi .</p>
+                    </div>
+                    <div class="col-12 text-start bg-secondary text-light py-3">
+                        <h2>Colonna 2</h2>
+                        <p class="fw-light">Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e un terzo su dispositivi grandi .</p>
+                    </div>
+                    </div>
                 </div>
-                <div class="col-12">
-                    Column
-                </div>
-                </div>
-            </div>
-        </section>
+            </section>
+            
+
+        </div>
     </main>
     <!-- bootsrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
